@@ -1,0 +1,44 @@
+/**index.wxss**/
+image{
+  width:80px;
+  height:80px;
+}
+.header{
+  text-align: center;
+  padding:10px;
+}
+.sumnum{
+  float:left;
+}
+.content{
+  display:flex;
+  justify-content: space-around;
+  padding:10px;
+}
+.result{
+  color:red;
+  line-height:10px;
+  margin-top:40px;
+}
+.footer{
+  background-color:white;
+  margin:20px;
+  padding:20px 0 8% 0;
+  text-align:center;
+}
+.ft_box{
+  display:flex;
+  margin:10% 0 26% 0;
+}
+.ft_content{
+  flex:1;
+  padding:4px;
+  border-radius:50%;
+}
+.but{
+  background-color:yellow;
+  border-radius:4px;
+  width:200px;
+  height:40px;
+  margin-bottom:10px;
+}

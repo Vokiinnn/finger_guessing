@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="header">
+    <text class="sumnum">次数：{{sumNum}}</text>
+    <text>你已经获胜了{{winNum}}次
+    </text>
+  </view>
+
+  <view class="content">
+      <image src="{{roboturl}}" class="imageL"></image>
+      <text class="result">{{result}}</text>
+      <image src="{{userurl}}" class="imageR"></image>
+  </view>
+
+  <view class="footer">
+    <text>出招吧，骚年</text>
+    <view class="ft_box">
+      <view wx:for="{{num}}" class="ft_content" bindtap="clickImage" wx:key="index" id="{{index}}">
+          <image src="{{item}}"></image>
+      </view>
+    </view>
+    <button class="but" bindtap="begin">开始</button>
+    <button class="but" bindtap="again">重新再来</button>
+  </view>
+</view>
